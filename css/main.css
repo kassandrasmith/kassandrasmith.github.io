@@ -28,17 +28,21 @@
     box-sizing: border-box;
 }
 
-a, a:visited, a:focus, a:active {
+a, a:visited, a:focus {
     text-decoration: none;
 }
 
+a:active{
+	color: #e2ae63;
+}
+
 a {
-    color: #ccc;
+    color: #e2ae63;
     transition: color 0.25s linear;
 }
 
 a:hover {
-    color: #48A4D2;
+    color: #edd6b4;
 }
 
 /* Icons */
@@ -83,7 +87,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: #131f21;
+    background-color: #4b7d74;
     background-size: 100%;
 }
 
@@ -132,6 +136,14 @@ header nav ul li:hover {
 header nav ul li:last-child {
     margin-right: 0;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 2em;
+
+}
+
+
 
 /*Section – Main*/
 
