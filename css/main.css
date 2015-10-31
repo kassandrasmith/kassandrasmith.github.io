@@ -93,13 +93,13 @@ body {
 }
 
 .submain {
-    align-items: left;
-    justify-content: left;
-    flex-direction: column;
+	left: 50%;
 }
 .tagline {
     font-size: 1rem;
     padding: 15px;
+    text-align: center
+
 }
 
 
@@ -177,6 +177,7 @@ ul.list {
     background-color: #19416e;
     background-size: 100% 100%;
 }
+
 
 /*Footer*/
 
