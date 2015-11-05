@@ -33,11 +33,11 @@ a, a:visited, a:focus {
 }
 
 a:active{
-	color: #19416e;
+	color: #FFFFCC;
 }
 
 a {
-    color: #19416e;
+    color: #FFFFCC;
     transition: color 0.25s linear;
 }
 
