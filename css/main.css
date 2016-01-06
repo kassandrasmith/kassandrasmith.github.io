@@ -135,7 +135,7 @@ body {
     align-items: center;
 
     /*background*/
-    background-image: url(../img/newpaper-texture.png);
+    background-image: url(../img/paper-texture.png);
     background-color: #19416e;
     background-size: cover;
 }
