@@ -1,11 +1,4 @@
 /*Style guide*/
-/**
- * normal: #ccc;
- * dark: #131f21 @alpha 0.95;
- * base-size: 16px;
- * blue: #2584B3;
- * highlight: #48A4D2;
- **/
 /*CSS Reset to remove all styling and remove browser inconsistencies*/
 @import url(./reset.css);
 /*Import fonts and icons*/
@@ -81,22 +74,27 @@ img {
     border: 0;
     -ms-interpolation-mode: bicubic;
 }
+
 article {
-    display:block;
-}
-/*@media only screen and (max-width: 800px)*/
-.col {
-    width: 50%;
+    display: block;
 }
 
-/*@media only screen and (max-width: 1200px)*/
-.col, .col_1 {
-    width: 33.3333%;
+@media only screen and (max-width: 800px) {
+    .col {
+        width: 50%;
+    }
 }
 
-/*@media only screen and (max-width: 1400px)*/
-.col, .col_1 {
-    width: 25%;
+@media only screen and (max-width: 1200px) {
+    .col, .col_1 {
+        width: 33.3333%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .col, .col_1 {
+        width: 25%;
+    }
 }
 
 .col {
@@ -135,9 +133,14 @@ body {
     align-items: center;
 
     /*background*/
-    background-image: url(../img/paper-texture.png);
     background-color: #19416e;
     background-size: cover;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-image: url("/img/mobile-paper-texture.png");
+    }
 }
 
 .tagline {

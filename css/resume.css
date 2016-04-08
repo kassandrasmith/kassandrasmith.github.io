@@ -1,20 +1,17 @@
-
 @import url(./reset.css);
-
 /*Import fonts and icons*/
 @import url(https://fonts.googleapis.com/css?family=Merriweather+Sans);
 @import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
-
-
 /* Basic styles*/
 
-.resume-container{
+.resume-container {
     flex-shrink: 0;
     flex-grow: 0;
     flex-basis: 80%;
 }
-.info{
+
+.info {
 
 }
 
@@ -26,7 +23,7 @@ a, a:visited, a:focus {
     text-decoration: none;
 }
 
-a:active{
+a:active {
     color: black;
 }
 
@@ -88,9 +85,9 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-html{
-    font-size: 8px;
-}
+    html {
+        font-size: 8px;
+    }
 
 }
 
@@ -100,10 +97,10 @@ html{
     text-align: center
 
 }
-.taglineitalic{
+
+.taglineitalic {
     font-style: italic;
 }
-
 
 /*Header*/
 
@@ -116,7 +113,7 @@ header {
 }
 
 /* name header */
-h1{
+h1 {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 600;
 
@@ -139,52 +136,52 @@ h2 {
 
 }
 
-h3{
+h3 {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 1rem;
     margin-bottom: .5rem;
 }
+
 h4, h5, h6 {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5em;
 }
 
-h1.center{
+h1.center {
     text-align: center;
 }
 
-p.resume{
+p.resume {
     width: 100%;
     justify-content: center;
 }
 
-p.italic{
+p.italic {
     font-style: italic;
 }
 
-p.center{
+p.center {
     text-align: center;
 }
-p.right{
-    float:right;
+
+p.right {
+    float: right;
 }
 
-p.left{
-    float:left;
+p.left {
+    float: left;
 }
 
 /*Section – Main*/
 section {
     display: flex;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
     justify-content: center;
     width: 100%;
 }
-
-
 
 .photo {
     max-width: 200px;
@@ -201,16 +198,17 @@ ul.list {
     list-style-type: disc;
 }
 
-.main-area{
+.main-area {
     padding: 5%;
 }
-.footer-area{
+
+.footer-area {
 }
 
 nav ul {
     display: flex;
     margin: 0 auto;
-    padding:0px;
+    padding: 0;
     justify-content: center;
     width: 100%;
 }
@@ -227,20 +225,17 @@ nav li a {
     text-decoration: none;
 }
 
-
-
 nav .active {
     background-color: rgb(173, 200, 219);
     color: whitesmoke;
 }
-
 
 /*Footer*/
 
 footer {
     display: flex;
     justify-content: center;
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 footer ul {
