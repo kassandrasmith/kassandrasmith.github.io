@@ -192,9 +192,23 @@ section {
     margin-bottom: 1rem;
 }
 
+ol{
+    margin-left: 50px;
+    list-style-type: disc;
+}
+
 ul.list {
     width: 100%;
     list-style-type: disc;
+}
+
+ul.resume-container {
+    padding: 10px;
+
+}
+
+ul.main-area {
+    padding: 15%;
 }
 
 .main-area {
@@ -207,7 +221,7 @@ ul.list {
 nav ul {
     display: flex;
     margin: 0 auto;
-    padding: 0;
+    padding: 0px;
     justify-content: center;
     width: 100%;
 }
