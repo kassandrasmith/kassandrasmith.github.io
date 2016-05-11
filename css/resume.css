@@ -27,7 +27,8 @@ a:active {
 }
 
 a {
-    color: black;
+    /*color: ;*/
+    color: #19416e;
     transition: color 0.25s linear;
 }
 
@@ -192,7 +193,7 @@ section {
     margin-bottom: 1rem;
 }
 
-ol{
+ol {
     margin-left: 50px;
     list-style-type: disc;
 }
