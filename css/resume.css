@@ -149,7 +149,7 @@ h4, h5, h6 {
     margin-bottom: 0.5em;
 }
 
-h1.center {
+h1.center, h2.center, h3.center, h4.center  {
     text-align: center;
 }
 
@@ -201,6 +201,10 @@ ol {
 ul.list {
     width: 100%;
     list-style-type: disc;
+}
+
+ul.indent {
+    margin-left: 50px;
 }
 
 ul.resume-container {
