@@ -80,8 +80,9 @@ body {
     align-items: center;
 
     /*background*/
-    background: white url(../img/neweggshellsection.png);
-    background-size: cover;
+    background: white url(../img/eggshellsection.png);
+    background-repeat: repeat;
+    /*background-size: cover;*/
 }
 
 @media screen and (max-width: 480px) {
@@ -149,11 +150,18 @@ h4, h5, h6 {
     margin-bottom: 0.5em;
 }
 
-h1.center, h2.center, h3.center, h4.center  {
+h1.center, h2.center, h3.center, h4.center {
     text-align: center;
 }
 
 p.resume {
+    width: 100%;
+    justify-content: center;
+}
+
+p.resume-bold {
+    padding-top: 20px;
+    font-weight: bold;
     width: 100%;
     justify-content: center;
 }
@@ -172,6 +180,13 @@ p.right {
 
 p.left {
     float: left;
+}
+
+p.hangingindent {
+    padding-right: 150px;
+    padding-left: 142px;
+    text-indent: -142px;
+
 }
 
 /*Section – Main*/
